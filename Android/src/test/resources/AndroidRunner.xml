@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android test suite for Pages">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="deviceName" value="TC77HL"/>
+    <parameter name="version" value="8.1.0"/>
+    <parameter name="appiumPort" value="localhost:4723"/>
+
+    <test name="Home page" preserve-order="true">
+        <classes>
+            <class name="TestTD.SmokeTest"/>
+        </classes>
+    </test>
+</suite>
